@@ -1,0 +1,17 @@
+{
+    "title": "Tools",
+    "defaultOpen": true,
+    "page": [
+        "system-tools",
+        "file-tools",
+        "internet-tools",
+        "social-media-tools",
+        "text-tools",
+        "gaming-tools",
+        "image-tools",
+        "video-tools",
+        "audio-tools",
+        "educational-tools",
+        "developer-tools"
+    ]
+}

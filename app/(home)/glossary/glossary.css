@@ -1,0 +1,45 @@
+/* Light mode */
+.glossary-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.glossary-table th {
+    background-color: #f3f4f6;
+    /* abu terang */
+    color: #111;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+}
+
+.glossary-table td {
+    background-color: #ffffff;
+    color: #333;
+    padding: 12px;
+    border: 1px solid #e5e7eb;
+}
+
+.glossary-table tr:nth-child(even) td {
+    background-color: #f9fafb;
+}
+
+/* Dark mode */
+.dark .glossary-table th {
+    background-color: #1a1a1a !important;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+.dark .glossary-table td {
+    background-color: #111111 !important;
+    color: #d1d5db;
+    border: 1px solid #333;
+}
+
+.dark .glossary-table tr:nth-child(even) td {
+    background-color: #161616 !important;
+}
+
+.glossary-table h2 {
+    text-align: center;
+}

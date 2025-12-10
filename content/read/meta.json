@@ -1,0 +1,14 @@
+{
+    "root": true,
+    "pages": [
+        "index",
+        "posts",
+        "contribute",
+        "---",
+        "wiki",
+        "---",
+        "tools",
+        "---",
+        "more"
+    ]
+}

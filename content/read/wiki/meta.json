@@ -1,0 +1,19 @@
+{
+    "title": "Wiki",
+    "defaultOpen": true,
+    "pages": [
+        "privacy",
+        "ai",
+        "video",
+        "audio",
+        "gaming",
+        "reading",
+        "downloading",
+        "torrenting",
+        "educational",
+        "mobile",
+        "linux-macos",
+        "non-english",
+        "misc"
+    ]
+}
