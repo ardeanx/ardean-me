@@ -1,11 +1,9 @@
 import { ShareButton } from '@/app/(home)/posts/[slug]/page.client';
 import { buttonVariants } from '@/components/ui/button';
-import { createMetadata } from '@/lib/metadata';
 import { blog } from '@/lib/source';
 import { cn } from '@/lib/utils';
 import { getMDXComponents } from '@/mdx-components';
 import { InlineTOC } from 'fumadocs-ui/components/inline-toc';
-import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import path from 'node:path';
@@ -42,7 +40,7 @@ export default async function Page(props: PageProps<'/posts/[slug]'>) {
                 <div className="flex flex-row gap-2 mb-8 not-prose">
                     <ShareButton url={page.url} />
                     <Link
-                        href="/blog"
+                        href="/posts"
                         className={cn(
                             buttonVariants({
                                 size: 'sm',
@@ -59,21 +57,6 @@ export default async function Page(props: PageProps<'/posts/[slug]'>) {
             </div>
         </article>
     );
-}
-
-export async function generateMetadata(
-    props: PageProps<'/posts/[slug]'>,
-): Promise<Metadata> {
-    const params = await props.params;
-    const page = blog.getPage([params.slug]);
-
-    if (!page) notFound();
-
-    return createMetadata({
-        title: page.data.title,
-        description:
-            page.data.description ?? 'The library for building documentation sites',
-    });
 }
 
 export function generateStaticParams(): { slug: string }[] {

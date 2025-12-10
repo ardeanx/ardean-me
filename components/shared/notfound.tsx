@@ -70,7 +70,7 @@ export default function NotFound() {
                 <Button asChild variant="outline" size="sm">
                   <Link
                     prefetch={false}
-                    href="https://github.com/subhadeeproy3902/mvpblocks/issues"
+                    href="https://github.com/ardeanx/ardean-me/issues"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -80,7 +80,7 @@ export default function NotFound() {
                 <Button asChild variant="outline" size="sm">
                   <Link
                     prefetch={false}
-                    href="https://x.com/mvp_Subha"
+                    href="https://x.com/ardeanbimasptra"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

@@ -3,7 +3,7 @@ import { BookA, Film, Home } from 'lucide-react';
 import Image from 'next/image';
 
 export const baseOptions: BaseLayoutProps = {
-  githubUrl: 'https://github.com/subhadeeproy3902/mvpblocks',
+  githubUrl: 'https://github.com/ardeanx/ardean-me',
   nav: {
     title: (
       <div className="flex items-center justify-center gap-2">

@@ -116,7 +116,7 @@ Add any other context or screenshots about the feature request here.`)}`}
           <LLMCopyButton markdownUrl={`${page.url}.mdx`} />
           <ViewOptions
             markdownUrl={`${page.url}.mdx`}
-            githubUrl={`https://github.com/subhadeeproy3902/mvpblocks/tree/main/content/docs/${page.path}`}
+            githubUrl={`https://github.com/ardeanx/ardean-me/tree/main/content/read/${page.path}`}
           />
         </div>
         <DocsBody>

@@ -1,6 +1,6 @@
+import type { ImageResponseOptions } from 'next/dist/compiled/@vercel/og/types';
 import { ImageResponse } from 'next/og';
 import type { ReactElement, ReactNode } from 'react';
-import type { ImageResponseOptions } from 'next/dist/compiled/@vercel/og/types';
 
 interface GenerateProps {
   title: ReactNode;
@@ -202,7 +202,7 @@ export function generate({ ...props }: GenerateProps): ReactElement {
             textShadow: '0 0 10px rgba(244, 63, 94, 0.3)',
           }}
         >
-          Mvpblocks
+          Ardean
         </div>
       </div>
 
@@ -352,7 +352,7 @@ export function generate({ ...props }: GenerateProps): ReactElement {
           color: 'rgba(244, 63, 94, 0.4)',
         }}
       >
-        @mvp_Subha
+        @ardeanbimasptra
       </div>
 
       <div
